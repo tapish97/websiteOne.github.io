@@ -1,0 +1,122 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+main {
+  padding-top: 3.5rem;
+
+}
+
+.jumbotron{
+	color: white;
+	/*padding-left:  400px;
+	padding-right: 200px;*/
+
+	background-image: url('../image/corona3.jpg');
+	background-position: left;
+	background-size: cover;
+	
+}
+
+
+
+.jumbotron h1{
+	font-family: Verdana, sans-serif;
+	font-weight: 500;
+
+color: black;
+}
+.jumbotron p{
+
+	padding-left: 35px;
+	padding-right: 35px;
+	font-family: Helvetica, sans-serif;
+	padding-top: 15px;
+	font-size: x-large;
+	font-weight: 300;
+	color: black; 
+	/*padding-left: 350px;
+	padding-top: 50px*/
+
+}
+.col-md-7 p{
+	font-weight: 150;
+	color: black
+}
+
+.intro{
+font-size: x-large;
+
+}
+img {
+	display: block;
+}
+
+
+@media (max-width: 1100px) {
+
+	.jumbotron h1 {
+
+		font-size: 58px;
+		}
+	.jumbotron p {
+    	padding: 0px 10px 10px 10px;
+    	font-family: Helvetica, sans-serif;
+    	padding-top: 20px;
+    	font-size: 20px;
+    	font-weight: 300;
+    	color: black;
+	}
+
+}
+@media (max-width: 900px ) { 
+
+    .jumbotron h1 {
+   		font-family: Verdana, sans-serif;
+    	font-size: 37px;
+    	font-weight: 500;
+    	color: black;
+	}	
+    .jumbotron p {
+    	padding: 0px 10px 10px 10px;
+    	font-family: Helvetica, sans-serif;
+    /* font-size: 38px; */
+    	padding-top: 20px;
+    	font-size: 18px;
+    	font-weight: 300;
+    	color: black;
+	}
+}
+
+
+@media (max-width: 768px ) { 
+	.jumbotron{
+		background-size: 600px;
+		background-size: cover;
+
+		padding-bottom: 0px;
+	}
+
+    .jumbotron h1 {
+   		font-family: Verdana, sans-serif;
+    	font-size: 28px;
+    	font-weight: 300;
+    	color: black;
+	}	
+    .jumbotron p {
+    	padding: 0px 10px 10px 10px;
+    	font-family: Helvetica, sans-serif;
+    /* font-size: 38px; */
+    	padding-top: 10px;
+    	font-size: 14	px;
+    	font-weight: 100;
+    	color: black;
+	}
+	.intro{
+		font-size: 20px;
+	}
+	.para{
+		font-size: 14px;
+	}
+.lead{
+		font-size: 20px;
+	}
+
+}
